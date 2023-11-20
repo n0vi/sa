@@ -1,0 +1,15 @@
+!procedure $ChangeRequestStart($name)
+  skinparam sequenceGroupBorderColor red  
+  group $name
+  skinparam sequenceGroupBorderColor black
+!endprocedure
+
+!procedure $ChangeRequestEnd($name)
+  end
+!endprocedure
+
+autonumber "<B>[00]"
+
+skinparam responseMessageBelowArrow true
+
+skinparam SequenceGroupBodyBackgroundColor #FFFFFF90
