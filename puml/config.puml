@@ -1,0 +1,7 @@
+@startuml
+
+!function $PathToFeature($feature)
+!return "https://n0vi.github.io/sa/puml/" + $feature
+!endfunction
+
+@enduml
